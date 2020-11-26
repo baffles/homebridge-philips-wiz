@@ -147,7 +147,7 @@ class WizLightbulb {
 				service.updateCharacteristic(api.hap.Characteristic.Saturation, state.saturation);
 			}
 
-			this.#log('next state', state);
+			this.#log.debug('next state', state);
 
 			this.#currentState.next(state);
 		});
