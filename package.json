@@ -1,0 +1,27 @@
+{
+  "displayName": "Philips Wiz",
+  "name": "homebridge-philips-wiz",
+  "version": "0.0.1",
+  "description": "A homebridge plugin for communicating with Philips Wiz bulbs.",
+  "main": "src/WizPlatform.js",
+  "engines": {
+    "homebridge": ">=1.0.0"
+  },
+  "scripts": {
+    "watch": "npm link && nodemon"
+  },
+  "author": "Robert Ferris <baf@baf.cc>",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "dependencies": {
+    "color-functions": "^3.0.1",
+    "ip": "^1.1.5",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "homebridge": "^1.2.3",
+    "nodemon": "^2.0.6"
+  }
+}
